@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PARENTPACKAGENAME:identifier___App: App {
+struct Homework_3_Koch_Snowflake_App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

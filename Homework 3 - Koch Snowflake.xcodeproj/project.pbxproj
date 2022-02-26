@@ -17,6 +17,12 @@
 		522DF49E27B6BEC7009B33D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF47427B6BEC4009B33D9 /* ContentView.swift */; };
 		522DF49F27B6BEC7009B33D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522DF47527B6BEC7009B33D9 /* Assets.xcassets */; };
 		522DF4A027B6BEC7009B33D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522DF47527B6BEC7009B33D9 /* Assets.xcassets */; };
+		522DF4B127B6CD0E009B33D9 /* Koch Snow Flake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B027B6CD0E009B33D9 /* Koch Snow Flake.swift */; };
+		522DF4B227B6CD0E009B33D9 /* Koch Snow Flake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B027B6CD0E009B33D9 /* Koch Snow Flake.swift */; };
+		522DF4B427B6D9AE009B33D9 /* Koch Snowflake View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B327B6D9AE009B33D9 /* Koch Snowflake View.swift */; };
+		522DF4B527B6D9AE009B33D9 /* Koch Snowflake View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B327B6D9AE009B33D9 /* Koch Snowflake View.swift */; };
+		522DF4B727B6D9D7009B33D9 /* Koch Snowflake Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B627B6D9D7009B33D9 /* Koch Snowflake Functions.swift */; };
+		522DF4B827B6D9D7009B33D9 /* Koch Snowflake Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DF4B627B6D9D7009B33D9 /* Koch Snowflake Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		522DF49327B6BEC7009B33D9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		522DF49727B6BEC7009B33D9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		522DF49927B6BEC7009B33D9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		522DF4B027B6CD0E009B33D9 /* Koch Snow Flake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Koch Snow Flake.swift"; sourceTree = "<group>"; };
+		522DF4B327B6D9AE009B33D9 /* Koch Snowflake View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Koch Snowflake View.swift"; sourceTree = "<group>"; };
+		522DF4B627B6D9D7009B33D9 /* Koch Snowflake Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Koch Snowflake Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,9 @@
 			children = (
 				522DF47327B6BEC4009B33D9 /* Homework_3___Koch_SnowflakeApp.swift */,
 				522DF47427B6BEC4009B33D9 /* ContentView.swift */,
+				522DF4B327B6D9AE009B33D9 /* Koch Snowflake View.swift */,
+				522DF4B027B6CD0E009B33D9 /* Koch Snow Flake.swift */,
+				522DF4B627B6D9D7009B33D9 /* Koch Snowflake Functions.swift */,
 				522DF47527B6BEC7009B33D9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522DF4B727B6D9D7009B33D9 /* Koch Snowflake Functions.swift in Sources */,
+				522DF4B127B6CD0E009B33D9 /* Koch Snow Flake.swift in Sources */,
 				522DF49D27B6BEC7009B33D9 /* ContentView.swift in Sources */,
+				522DF4B427B6D9AE009B33D9 /* Koch Snowflake View.swift in Sources */,
 				522DF49B27B6BEC7009B33D9 /* Homework_3___Koch_SnowflakeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522DF4B827B6D9D7009B33D9 /* Koch Snowflake Functions.swift in Sources */,
+				522DF4B227B6CD0E009B33D9 /* Koch Snow Flake.swift in Sources */,
 				522DF49E27B6BEC7009B33D9 /* ContentView.swift in Sources */,
+				522DF4B527B6D9AE009B33D9 /* Koch Snowflake View.swift in Sources */,
 				522DF49C27B6BEC7009B33D9 /* Homework_3___Koch_SnowflakeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
